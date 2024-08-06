@@ -39,4 +39,4 @@ pairs  = com(zip(lMap,l),2)
 for (name1,set1),(name2,set2) in pairs:
     art = set1.intersection(set2)
     if len(art) >=3:
-        print(f'The DJs {name1} and {name2} have {len(art)} artists common between them.')
+        print(f'The DJs {name1} and {name2} have {len(art)} artists common between them.\n')
