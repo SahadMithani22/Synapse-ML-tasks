@@ -40,3 +40,11 @@ for (name1,set1),(name2,set2) in pairs:
     art = set1.intersection(set2)
     if len(art) >=3:
         print(f'The DJs {name1} and {name2} have {len(art)} artists common between them.\n')
+# Output
+# The DJs Kevin and Bob have 4 artists common between them.
+
+# The DJs Stuart and Bob have 4 artists common between them.
+
+# The DJs Stuart and Edith have 3 artists common between them.
+
+# The DJs Bob and Edith have 3 artists common between them.
